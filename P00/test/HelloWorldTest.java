@@ -18,7 +18,7 @@ public class HelloWorldTest {
 	public void test() {
 		//fail("Not yet implemented");
 		HelloWorld h = new HelloWorld();
-		String str1 = "My First Java Program";
+		String str1 = "Hello World";
 		String str2 = h.announce();
 		assertEquals(str1, str2);
 	}
